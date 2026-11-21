@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.wendaoshanghai.petals.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "wendaopetals.refmap.json",
+  "client": ["RustlingCherryMixin"],
+  "injectors": {"defaultRequire": 0}
+}

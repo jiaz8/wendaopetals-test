@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="wendaopetals"
+version="0.1.0"
+displayName="Wendao Shanhai Petals"
+authors="Wendao Shanhai compatibility patch"
+description='''Client-side cherry-petal animation, configurable colors, long flight and optional Living Wind integration. No worldgen changes.'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.wendaopetals]]
+modId="forge"
+mandatory=true
+versionRange="[47.3.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.wendaopetals]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.wendaopetals]]
+modId="rustling_leaves"
+mandatory=false
+versionRange="[2.8.3,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.wendaopetals]]
+modId="livingwind"
+mandatory=false
+versionRange="[1.4.0,)"
+ordering="NONE"
+side="CLIENT"
